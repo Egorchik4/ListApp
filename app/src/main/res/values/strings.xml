@@ -1,4 +1,13 @@
 <resources>
 	<string name="app_name">ListApp</string>
 	<string name="title_activity_main">MainActivity</string>
+	<string name="plus_text">+</string>
+	<string name="delete_text">Delete</string>
+	<string name="cancel_text">Cancel</string>
+	<string name="hint_name">Name</string>
+	<string name="hint_second_name">SecondName</string>
+	<string name="hint_number_of_phone">+xxxxxxxxxx</string>
+	<string name="ivan">Ivan</string>
+	<string name="ivanov">Ivanov</string>
+	<string name="number_phone">+7(923)3243232</string>
 </resources>
