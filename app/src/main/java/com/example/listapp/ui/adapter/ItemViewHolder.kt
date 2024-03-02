@@ -40,12 +40,7 @@ class ItemViewHolder(
 					textNumberOfPhone.text = itemState.item.numberOfPhone
 					checkBox.visibility = View.VISIBLE
 					checkBox.setOnClickListener {
-						checkBox.isChecked = false
-						onItemClick(itemState.copy(isChecked = false))
-					}
-					checkBox.setOnClickListener {
-						checkBox.isChecked = true
-						onItemClick(itemState.copy(isChecked = true))
+						onItemClick(itemState.copy(isChecked = checkBox.isChecked))
 					}
 				}
 			}
