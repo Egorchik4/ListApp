@@ -43,7 +43,7 @@ class ItemViewHolder(
 						checkBox.isChecked = false
 						onItemClick(itemState.copy(isChecked = false))
 					}
-					root.setOnClickListener {
+					checkBox.setOnClickListener {
 						checkBox.isChecked = true
 						onItemClick(itemState.copy(isChecked = true))
 					}
